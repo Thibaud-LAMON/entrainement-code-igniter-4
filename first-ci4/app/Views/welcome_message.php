@@ -1,3 +1,5 @@
+<!-- Une vue est la partie frontend de la page, elle contient le HTML, le CSS et le JS -->
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,7 +9,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" type="image/png" href="/favicon.ico">
 
-    <!-- STYLES -->
+    <!-- STYLES : Le CSS de la vue -->
 
     <style {csp-style-nonce}>
         * {
@@ -23,6 +25,7 @@
             font-size: 16px;
             margin: 0;
             padding: 0;
+            background-color: orange;
             -webkit-font-smoothing: antialiased;
             -moz-osx-font-smoothing: grayscale;
             text-rendering: optimizeLegibility;
@@ -193,6 +196,9 @@
         }
     </style>
 </head>
+
+<!-- Le HTML -->
+
 <body>
 
 <!-- HEADER: MENU + HEROE SECTION -->
@@ -220,7 +226,7 @@
 
     <div class="heroe">
 
-        <h1>Welcome to CodeIgniter <?= CodeIgniter\CodeIgniter::CI_VERSION ?></h1>
+        <h1>Formation à CodeIgniter <?= CodeIgniter\CodeIgniter::CI_VERSION ?>, ça va être compliqué.</h1>
 
         <h2>The small framework with powerful features</h2>
 
@@ -307,7 +313,7 @@
 
 </footer>
 
-<!-- SCRIPTS -->
+<!-- SCRIPTS : le JS -->
 
 <script>
     function toggleMenu() {
