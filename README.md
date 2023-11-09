@@ -5,7 +5,7 @@ https://www.youtube.com/playlist?list=PLT9miexWCpPW6Z_OXNv2d78cqCrZaPrVG
 
 ## Pour obtenir les dépendance
 
-Rendez-vous dans le fichier first-ci4 dans un cmd et rentrez la commande composer install
+Rendez-vous dans le fichier first-ci4 dans un cmd et rentrez la commande `composer install`
 
 ## Pour lancer l'appli
 
