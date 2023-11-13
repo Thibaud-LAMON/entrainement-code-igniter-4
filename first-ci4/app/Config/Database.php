@@ -19,7 +19,7 @@ class Database extends Config
      * Lets you choose which connection group to
      * use if no other is specified.
      */
-    public string $defaultGroup = 'default';
+    public string $defaultGroup = 'default'; //par défaut ce fichier utilise les variable d'environnement de base de données "default" dans .env
 
     /**
      * The default database connection.
